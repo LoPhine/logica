@@ -18,3 +18,4 @@ for (let i = 0; i < option.length; i++){
     }
 }
 console.log(palavra.join(''));
+
