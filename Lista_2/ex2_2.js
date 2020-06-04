@@ -2,7 +2,7 @@
 // para Fahrenheit ou Fahrenheit para Celsius.
 
 var rs = require('readline-sync')
-var querOq = rs.question("Digite -C- para converter de Fahrenheit para Celsius ou -F- para conver de Celsius para Fahrenheit ")
+var querOq = rs.question("Digite -C- para converter de Fahrenheit para Celsius ou -F- para conver de Celsius para Fahrenheit ").toUpperCase(0)
 var graus = rs.questionInt("Quantos graus? ")
 
 if(querOq == "C"){

@@ -7,7 +7,7 @@
 // BIP BIP
 
 var rs = require('readline-sync');
-var numero = rs .questionInt("Digite um numero")
+var numero = rs .questionInt("Digite um numero: ")
 var cont = 0;
 
 while(numero > cont){
