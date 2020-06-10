@@ -10,11 +10,9 @@
 var rs = require('readline-sync')
 var num = rs.questionInt("Digite um número: ")
 
-var i = 1
-var cont = 0
+var i = 0
 
-while (cont <= num ){
-    console.log(i)
-    i = i+1
-    cont ++
+while ( i <= num ){
+    console.log(i)    
+    i = i + 2
     }
