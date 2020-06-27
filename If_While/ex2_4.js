@@ -16,21 +16,33 @@
 // 9 ÍMPAR
 // 10 PAR
 
-var num = 0
-
- while(num <= 50){
-     if((num % 2 == 0) && (num % 1 == 0 && num % num == 0)){ //Se ele é par E se ele é primo
-     console.log("PAR PRIMO")
-    }else if(num % 2 == 0){
-        console.log("PAR")
-    }else if((num % 2 != 0) && (num % 1 == 0 && num % num == 0)){
-        console.log("ÍMPAR PRIMO")
-    }else{
-        console.log("ÍMPAR")
+var num2 = 50
+var i = 1
+var cont = 0
+var num1 = 1
+while(num1< num2){
+    cont=0
+    var i=1
+    while( i < num2) {
+        if (num1 % i == 0) {
+            cont= cont +1
+        }i++
     }
-        num ++
+
+    if (cont <= 2 && num1 % 2 == 0) {
+         console.log(num1, "Esse número é primo e é par")
+        }
+    if (cont !== 2 && num1 % 2 == 0) {
+            console.log(num1,"Esse número é par")
+        }
+    if (cont == 2 && num1 % 2 !== 0) {
+        console.log(num1, "Esse número é primo e é ímpar")
+        }
+    if (cont !== 2 && num1 % 2 !== 0) {
+        console.log(num1,"Esse número é ímpar")
+    }
+num1++
 }
 
 
-
-// if     (num % 1 == 0 && num % num == 0 && num % 2 == 0){
+// NãO ENTENDI

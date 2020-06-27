@@ -3,13 +3,10 @@
 
 
 
-//  for( var i = 0; i <= 50; i = i+ 2){
-//      console.log(i)
-//  }
+ for( var i = 0 ; i <= 50 ; i = i + 2){
+     console.log(i)
+ }
 
-// for( var x = 0; x < 100; x ++){
-//     console.log(x)
-// }
 
 
 
